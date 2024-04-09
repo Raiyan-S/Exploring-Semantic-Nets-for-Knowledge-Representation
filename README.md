@@ -46,14 +46,15 @@ relationships.
 ## Semantic Net Domain & Design
 Semantic networks are a structured approach to knowledge representation, and their design is
 fundamental to their utility. Our approach for a domain is a “Hospital”. The following figure
-shows the general graph for our semantic net:
-
+shows the **general graph** for our semantic net:
+![](https://github.com/Raiyan-S/Exploring-Semantic-Nets-for-Knowledge-Representation/blob/main/General%20Graph.png)
 
 
 The graph explains the visualized relationship between 6 different parties: Doctor,
 Patient, Hospital, illness, medication, and symptoms. Labels for relationships are shown in red.
 To illustrate this better, we included a default example graph in our code, which the user
-then can edit to their preference. The following figure shows the example graph:
+then can edit to their preference. The following figure shows the **example graph**:
+![](https://github.com/Raiyan-S/Exploring-Semantic-Nets-for-Knowledge-Representation/blob/main/Example%20Graph.png)
 
 
 ## Implementation
@@ -62,18 +63,21 @@ semantic net. We are going to discuss each option in the menu and then give a sa
 the program at hand.
 
 ### Program menu
+![](https://github.com/Raiyan-S/Exploring-Semantic-Nets-for-Knowledge-Representation/blob/main/Menu.png)
 
 
 #### 1 - Add/link nodes with the relationship:
 Users can input the first node, the second node, and the relationship between them. For
 example, adding a relationship "Dr. Mohammed Diagnoses Yazan" would result in the
 creation of this connection.
-
+![](https://github.com/Raiyan-S/Exploring-Semantic-Nets-for-Knowledge-Representation/blob/main/Adding%20Node.png)
+![](https://github.com/Raiyan-S/Exploring-Semantic-Nets-for-Knowledge-Representation/blob/main/After%20Adding%20Nodes.png)
 
 
 #### 2 - Delete a node:
 Users can delete nodes from the graph. If a node exists, it is removed.
-
+![](https://github.com/Raiyan-S/Exploring-Semantic-Nets-for-Knowledge-Representation/blob/main/Deleting%20Node.png)
+![](https://github.com/Raiyan-S/Exploring-Semantic-Nets-for-Knowledge-Representation/blob/main/After%20Delete%20a%20node.png)
 
 
 #### 3 - Visualize Example Graph:
@@ -91,13 +95,13 @@ This option creates the default Example Graph, then the user can manipulate it u
 #### 6 - Search Node Path from Source to Destination:
 Users can search for a path between two nodes in the example graph. The code will
 display the path if it exists.
-
+![](https://github.com/Raiyan-S/Exploring-Semantic-Nets-for-Knowledge-Representation/blob/main/Search%20Node%20Path.png)
 
 
 #### 7 - Search Nodes by Relationship:
 Users can search for nodes connected by a specific relationship. The code will display
 the nodes that share the specified relationship.
-
+![](https://github.com/Raiyan-S/Exploring-Semantic-Nets-for-Knowledge-Representation/blob/main/Search%20by%20Relationship.png)
 
 
 #### 8 - Exit Program
